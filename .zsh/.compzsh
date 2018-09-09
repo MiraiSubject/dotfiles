@@ -1,0 +1,11 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _match _correct _approximate
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+zstyle :compinstall filename '/Users/subject/.zsh/.compzsh'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
